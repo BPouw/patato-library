@@ -1,0 +1,5 @@
+# ninja log v5
+1	958	1702548332042972832	CMakeFiles/patato_library.dir/PatatoClass.cpp.o	5a1ca6429c11580a
+0	1311	1702548332396508960	CMakeFiles/patato_library.dir/Prediction.cpp.o	850ad0365c696473
+0	1817	1702548332900374598	CMakeFiles/patato_library.dir/PatatoClassifier.cpp.o	938fb1196f805f85
+1817	1918	1702548333007447000	libpatato_library.a	619e5f3323dd169
