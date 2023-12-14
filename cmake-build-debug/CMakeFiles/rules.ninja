@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: patato_library
+# Project: potato_library
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__patato_library_unscanned_Debug
+rule CXX_COMPILER__potato_library_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__patato_library_unscanned_Debug
 #############################################
 # Rule for linking CXX static library.
 
-rule CXX_STATIC_LIBRARY_LINKER__patato_library_Debug
+rule CXX_STATIC_LIBRARY_LINKER__potato_library_Debug
   command = $PRE_LINK && "/Users/boris.pouw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/233.11799.238/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -E rm -f $TARGET_FILE && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib $TARGET_FILE && "/Users/boris.pouw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/233.11799.238/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -E touch $TARGET_FILE && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "/Users/boris.pouw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/233.11799.238/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake" --regenerate-during-build -S/Users/boris.pouw/CLionProjects/patato-library -B/Users/boris.pouw/CLionProjects/patato-library/cmake-build-debug
+  command = "/Users/boris.pouw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/233.11799.238/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake" --regenerate-during-build -S/Users/boris.pouw/CLionProjects/potato-library -B/Users/boris.pouw/CLionProjects/potato-library/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

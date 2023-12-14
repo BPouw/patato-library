@@ -1,5 +1,5 @@
 #include <string>
-#include "PatatoClass.h"
+#include "PotatoClass.h"
 
 std::string potatoClassToString(PotatoClass potatoClass) {
     switch (potatoClass) {

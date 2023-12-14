@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libpatato_library.a"
+			"path" : "libpotato_library.a"
 		}
 	],
 	"backtrace" : 1,
@@ -78,9 +78,9 @@
 			]
 		}
 	],
-	"id" : "patato_library::@6890427a1f51a3e7e1df",
-	"name" : "patato_library",
-	"nameOnDisk" : "libpatato_library.a",
+	"id" : "potato_library::@6890427a1f51a3e7e1df",
+	"name" : "potato_library",
+	"nameOnDisk" : "libpotato_library.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -112,12 +112,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "PatatoClassifier.cpp",
+			"path" : "PotatoClassifier.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "PatatoClassifier.h",
+			"path" : "PotatoClassifier.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -134,12 +134,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "PatatoClass.cpp",
+			"path" : "PotatoClass.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "PatatoClass.h",
+			"path" : "PotatoClass.h",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -1,5 +1,5 @@
 #include <opencv2/opencv.hpp>
-#include "PatatoClassifier.h"
+#include "PotatoClassifier.h"
 #include "Prediction.h"
 
 PotatoClassifier::PotatoClassifier(const std::string& modelPath) : modelPath(modelPath) {

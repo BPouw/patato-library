@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "patato_library",
+					"name" : "potato_library",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "patato_library::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-patato_library-Debug-fb7a4821822cfaf7299e.json",
-					"name" : "patato_library",
+					"id" : "potato_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-potato_library-Debug-cd379d654023e0f1b727.json",
+					"name" : "potato_library",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/boris.pouw/CLionProjects/patato-library/cmake-build-debug",
-		"source" : "/Users/boris.pouw/CLionProjects/patato-library"
+		"build" : "/Users/boris.pouw/CLionProjects/potato-library/cmake-build-debug",
+		"source" : "/Users/boris.pouw/CLionProjects/potato-library"
 	},
 	"version" : 
 	{

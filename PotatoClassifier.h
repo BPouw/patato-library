@@ -9,7 +9,7 @@
 #include <vector>
 #include <string>
 #include "Prediction.h"
-#include "PatatoClass.h"
+#include "PotatoClass.h"
 
 /**
  * @class PotatoClassifier
