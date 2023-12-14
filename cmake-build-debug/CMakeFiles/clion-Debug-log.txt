@@ -1,4 +1,0 @@
-"/Users/boris.pouw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/233.11799.238/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/boris.pouw/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/233.11799.238/CLion.app/Contents/bin/ninja/mac/aarch64/ninja" -G Ninja -S /Users/boris.pouw/CLionProjects/patato-library -B /Users/boris.pouw/CLionProjects/patato-library/cmake-build-debug
--- Configuring done (0.1s)
--- Generating done (0.0s)
--- Build files have been written to: /Users/boris.pouw/CLionProjects/patato-library/cmake-build-debug
