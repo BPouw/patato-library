@@ -1,6 +1,6 @@
 /**
- * @file PotatoClassifier.h
- * @brief Declaration of PotatoClassifier class.
+ * @file Classifier.h
+ * @brief Declaration of Classifier class.
  */
 
 #pragma once
@@ -9,29 +9,28 @@
 #include <vector>
 #include <string>
 #include "Prediction.h"
-#include "PotatoClass.h"
 
 /**
- * @class PotatoClassifier
+ * @class Classifier
  * @brief A class for image classification using a pre-trained neural network model.
  *
  * This class uses OpenCV's DNN module to load a neural network model from an ONNX file
  * and performs image classification based on the given model.
  */
-class PotatoClassifier {
+class Classifier {
 public:
     /**
-     * @brief Constructor for PotatoClassifier.
+     * @brief Constructor for Classifier.
      * @param modelPath The path to the ONNX model file.
      */
-    explicit PotatoClassifier(const std::string& modelPath);
+    explicit Classifier(const std::string& modelPath);
 
     /**
      * @brief Classify an image using the loaded model.
      * @param imagePath The path to the input image file.
      * @return A Prediction object containing the classification result.
      */
-    Prediction classify(const std::string& imagePath);
+    Prediction classify(const std::string& imagePath, int width, int height);
 
 private:
     std::string modelPath; ///< The path to the ONNX model file.
